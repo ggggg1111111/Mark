@@ -3,7 +3,7 @@ public class CaesarCip {
     private static final String ALPHABET = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 
     public String encrypt(String text, int key) {
-        StringBuilder result = new StringBuilder(); // Создаёт пустую коробку для текста.
+        StringBuilder result = new StringBuilder();
         for (char symbol : text.toCharArray()) {
             int index = ALPHABET.indexOf(symbol);
 
